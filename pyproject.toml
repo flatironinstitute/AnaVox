@@ -4,17 +4,17 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build]
 include = [
-    "src/cryosvd",
+    "src/AnaVox",
 ]
 
 [tool.hatch.build.targets.wheel]
 packages = [
-    "src/cryosvd",
+    "src/AnaVox",
 ]
 
 
 [project]
-name = "cryosvd"
+name = "AnaVox"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
@@ -39,5 +39,5 @@ dependencies = [
 
 
 [tool.hatch.version]
-path = "src/cryosvd/__about__.py"
+path = "src/AnaVox/__about__.py"
 
